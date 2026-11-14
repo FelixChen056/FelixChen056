@@ -1,0 +1,33 @@
+# 每日生成"贪吃蛇吃贡献图"动画，提交到 main 分支 assets/ 目录
+# 触发方式：每日定时 + 支持手动触发（首次使用请到 Actions 页手动 Run 一次）
+name: 贡献贪吃蛇
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # 每日 UTC 03:17（北京时间 11:17），错开整点高峰
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 生成贪吃蛇 SVG
+        uses: Platane/snk/svg@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: 提交并推送
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: 自动更新贡献贪吃蛇动画"
+          file_pattern: "assets/*.svg"
