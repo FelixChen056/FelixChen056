@@ -6,6 +6,10 @@ on:
   schedule:
     - cron: "17 3 * * *" # 每日 UTC 03:17（北京时间 11:17），错开整点高峰
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml" # 仅本文件变更时触发（避免 assets 自动提交造成循环）
 
 permissions:
   contents: write
@@ -19,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 生成贪吃蛇 SVG
-        uses: Platane/snk/svg@v3
+        uses: Platane/snk@v3 # v3 已无 svg/ 子目录 action，须用根 action（官方 README 用法）
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
