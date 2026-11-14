@@ -30,7 +30,7 @@
 
 **语言与数据**
 
-![语言与数据](https://skillicons.dev/icons?i=python,pycharm,pytest,pandas,numpy,pytorch&theme=dark)
+![语言与数据](https://skillicons.dev/icons?i=python,pycharm,scikitlearn,pytorch,tensorflow,opencv&theme=dark)
 
 **框架与工程**
 
