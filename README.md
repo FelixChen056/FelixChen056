@@ -65,7 +65,7 @@
   <img src="assets/github-contribution-grid-snake.svg" alt="贪吃蛇" />
 </picture>
 
-<p align="center"><sub>由 GitHub Actions 每日自动生成 · 首次显示需在仓库 Actions 页手动 Run workflow 一次</sub></p>
+<p align="center"><sub>由 GitHub Actions 自动生成 · 每日北京时间 11:17 刷新</sub></p>
 
 ---
 
