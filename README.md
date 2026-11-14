@@ -52,9 +52,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=FelixChen056&show_icons=true&hide_border=true&theme=radical&include_all_commits=true&locale=zh-cn" alt="GitHub 统计" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=FelixChen056&theme=radical" alt="GitHub 统计" />
 <img src="https://streak-stats.demolab.com?user=FelixChen056&theme=radical&hide_border=true" alt="连续提交" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FelixChen056&layout=compact&hide_border=true&theme=radical&locale=zh-cn" alt="常用语言" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=FelixChen056&theme=radical" alt="常用语言（按仓库）" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=FelixChen056&theme=radical" alt="常用语言（按提交）" />
 
 </div>
 
