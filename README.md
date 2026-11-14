@@ -4,7 +4,7 @@
      贪吃蛇动画由 GitHub Actions 每日自动生成（首次需手动 Run 一次）。
      ========================================================== -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3776AB,1:FFD43B&height=200&section=header&text=Felix&fontSize=45&fontColor=ffffff&animation=twinkling&desc=Life+is+short,+I+use+Python&fontAlignY=35&descAlignY=60" alt="Felix" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,1:38BDF8&height=200&section=header&text=Felix&fontSize=45&fontColor=ffffff&animation=twinkling&desc=Life+is+short,+I+use+Python&fontAlignY=35&descAlignY=60" alt="Felix" />
 
 <div align="center">
 
@@ -69,7 +69,7 @@
 
 ---
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3776AB,1:FFD43B&height=100&section=footer" alt="footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1D4ED8,1:38BDF8&height=100&section=footer" alt="footer" />
 
 <div align="center">
 
